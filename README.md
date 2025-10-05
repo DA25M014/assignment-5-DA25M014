@@ -3,7 +3,9 @@
 File needed for Evaluation - "DA5401_DA25M014_Assignment 5.ipynb"
 
 Libraries Used - pandas, numpy, matplotlib (pyplot, patches, colors), seaborn, sklearn.preprocessing, sklearn.manifold
+
 Color Palettes Used	- colorblind, Paul Tol (TOL_COLORS), Set1, Set2, husl, Spectral
+
 Colormaps Used - Spectral (for heatmaps, violin plots)
 
 🧠 Analysis and Discussion
