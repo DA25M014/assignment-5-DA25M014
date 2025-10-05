@@ -135,7 +135,7 @@ Non-linear models such as SVM (RBF), Random Forests, or Neural Networks are requ
 
 Mixing of colors in t-SNE and curvature in Isomap confirm the hard-to-learn nature of this dataset.
 
-💡 Summary and Recommendations
+💡 Recommendations
 
 When to Use Each Method
 
