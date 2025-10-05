@@ -7,6 +7,7 @@ Color Palettes Used	- colorblind, Paul Tol (TOL_COLORS), Set1, Set2, husl, Spect
 Colormaps Used - Spectral (for heatmaps, violin plots)
 
 🧠 Analysis and Discussion
+
 🌐 Comparison of Global Structure Preservation
 
 Isomap excels at revealing the global structure of the gene expression data.
@@ -17,6 +18,7 @@ For example, the main clusters (C1 and ‘Other’) are often joined by a curvin
 In contrast, t-SNE focuses on local neighbor preservation, sometimes compressing distant clusters into denser, misleading proximities to better show micro-structures.
 
 🧬 Data Manifold Complexity and Classification
+
 🌀 Concept of the Data Manifold
 
 The data manifold is the hidden low-dimensional surface embedded in the 103-dimensional feature space where the data truly resides.
@@ -45,6 +47,7 @@ This analysis connects data geometry to model design — bridging theory and pra
 👇
 
 🏁 Assignment Summary (High Level)
+
 📊 Core Findings
 
 Objective:
@@ -81,6 +84,7 @@ algorithms capable of learning curved, intricate decision boundaries aligned wit
 👇
 
 📊 Detailed Analysis and Discussion (Low Level)
+
 🧭 Comparison of Dimensionality Reduction Techniques
 
 Both Isomap and t-SNE are powerful non-linear dimensionality reduction techniques, but they serve distinct purposes in visualizing high-dimensional gene expression data.
@@ -97,6 +101,7 @@ Local Structure	Moderate — blurs fine patterns	Excellent — sharp neighborhoo
 Visualization Pattern	Stretched, interconnected clusters	Compact, well-separated clusters
 Best Use Case	Understand overall geometry	Discover fine-grained local clusters
 Computational Complexity	O(n²)–O(n³)	O(n²) with stochastic optimization
+
 🌐 Global Structure Preservation
 
 Isomap reveals the true large-scale connectivity of the data manifold.
@@ -109,6 +114,7 @@ t-SNE excels at visual clarity — producing sharp, well-separated clusters that
 Isomap instead provides a balanced yet less separated view — offering a more honest geometric depiction at the cost of some cluster visibility.
 
 🧬 Data Manifold Complexity and Classification Implications
+
 Concept of the Data Manifold
 
 The data manifold is a low-dimensional curved surface embedded in the 103-dimensional space.
@@ -128,30 +134,26 @@ Non-linear models such as SVM (RBF), Random Forests, or Neural Networks are requ
 Mixing of colors in t-SNE and curvature in Isomap confirm the hard-to-learn nature of this dataset.
 
 💡 Summary and Recommendations
+
 When to Use Each Method
 
 Use Isomap when:
 
-Understanding global geometry is key
-
-Large-scale distances and connectivity matter
-
-Studying the manifold’s overall shape and curvature
+Understanding global geometry is key.
+Large-scale distances and connectivity matter.
+Studying the manifold’s overall shape and curvature.
 
 Use t-SNE when:
 
-Identifying fine-grained clusters
+Identifying fine-grained clusters.
+Exploring local neighborhoods.
+Creating visually distinct 2D visualizations.
 
-Exploring local neighborhoods
-
-Creating visually distinct 2D visualizations
 
 Key Insights for Classification
 
 Manifold Complexity: The curved structure increases classification difficulty.
-
 Model Selection: Non-linear models are essential for good performance.
-
 Feature Engineering: Feature transformations may help linear models adapt.
 
 Ensemble Methods: Combining non-linear learners often yields the best results.
